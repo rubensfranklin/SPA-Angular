@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPA com Angular</title>
+</head>
+
+<body>
+
+  <mat-toolbar color="warn">
+    
+  
+    
+  
+    <mat-toolbar-row>
+      <span>Concientize-se </span>
+      <span class="example-spacer"></span>
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">delete</mat-icon>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div>
+    <mat-progress-bar mode="indeterminate" color = 'warn'></mat-progress-bar>
+  </div>
+  
+  <div>
+    
+    <spa-alunos [valorInicial]="valor"></spa-alunos>
+
+        
+        
+    
+        <button (click)="exibirTabela()">Exibir Ranking</button>
+    
+  </div>
+
+
+
+  <table *ngIf="exibeTabela">
+    <tr>
+      <th>Lugar</th>
+      <th>País</th>
+      
+    </tr>
+    <tr *ngFor="let aluno of listaAlunos">
+      <td>{{aluno.lugar}}</td>
+      <td>{{aluno.pais}}</td>
+      
+    </tr>
+  </table>
+
+  <!-- <spa-professores></spa-professores> -->
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+.example-icon {
+  padding: 0 14px;
+  
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+span{
+  font-size: 28px; 
+  font-weight:bold;
+  font-family: verdana,
+  
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+button{
+  
+  align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+  
+}
+
+div{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
