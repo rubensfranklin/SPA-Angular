@@ -1,6 +1,4 @@
-# Spaangular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
 
 # Desafio de Construção de uma SPA em Angular
