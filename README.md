@@ -2,26 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Desafio de Construção de uma SPA em Angular
+ 
+ Este projeto implementa um infografo sobre educação ambiental capaz de armazenar e editar o os participantes
+ Nele fomos desafiados a construir uma Single Page Application em Angular com os seguintes requisitos:
+ 
+1) Crie uma aplicação Angular (Não esqueça que todo código precisa estar no GitHub)
+2) Crie no mínimo 3 componentes que deverão estar interagindo na mesma página (Não esqueça das rotas)
+3) Escolha no mínimo 4 componentes do Angular Material e incorpore eles em sua aplicação.
+4) Crie em uma das páginas uma interação através da Interpolação e/ou utilizando Property Biding.
+5) Crie uma explicação sobre o que foi feito, esta explicação será inserida na plataforma junto com o link para o código no GitHub.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
